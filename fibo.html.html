@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<script>
+var n = Number(prompt('Kactan geriye yazdirilsin:'));
+function yazdirma(n){
+    if(n <= 1){
+        return 1;
+    }
+    else{
+        console.log(n);
+        return yazdirma(n-1);
+    }
+}
+</script>
+</body>
+</html>
